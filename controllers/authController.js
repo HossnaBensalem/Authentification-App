@@ -151,7 +151,7 @@ const logout = (req,res) => {
     sameSite: "None",
     secure: true,
    });
-   res.json({ message: "Cookie cleared" });
+   res.json({ message: "Cookies cleared" });
    };
 
 module.exports = {
